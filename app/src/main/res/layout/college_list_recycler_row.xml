@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/txtCollegeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="college name"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/imgCollege"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/txtCollegeName"
+        android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_below="@+id/imgCollege"
+            android:id="@+id/txtAboutCollege"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="about college"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@+id/txtAboutCollege"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtPrincipleName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principle : - "
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtPrincipleName"
+        android:layout_toEndOf="@+id/txtPrincipleName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="principle name"
+        android:layout_below="@+id/txtAboutCollege"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imgPrinciple"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/txtPrincipleName1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_below="@+id/imgPrinciple"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : - "
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtEmail"
+        android:layout_toEndOf="@+id/txtEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgPrinciple"
+        android:text="Email"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtAffiliation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="affiliation : -"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtEmail"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtAffiliation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="affliation"
+        android:layout_below="@+id/txtAffiliation1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
+    </ScrollView>

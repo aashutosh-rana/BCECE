@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394859720386",
+    "firebase_url": "https://bcece-d98eb.firebaseio.com",
+    "project_id": "bcece-d98eb",
+    "storage_bucket": "bcece-d98eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394859720386:android:0edf201405ef92c7a3d55b",
+        "android_client_info": {
+          "package_name": "com.bcebhagalpur.bcece"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394859720386-3as6gd2o88kpetsi8ijso4qnjonbhosd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bcebhagalpur.bcece",
+            "certificate_hash": "524026c110fb45b811edf12519afa80efffdea17"
+          }
+        },
+        {
+          "client_id": "394859720386-pcld8humaot31gtc1ff9o1dltoe7feqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxtdjQCGr6uPMNXm7XZrSSD6YN5q8_Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394859720386-pcld8humaot31gtc1ff9o1dltoe7feqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
